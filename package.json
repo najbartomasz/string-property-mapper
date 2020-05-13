@@ -1,0 +1,26 @@
+{
+    "author": {
+        "email": "najbartomasz@gmail.com",
+        "name": "Tomasz Najbar"
+    },
+    "devDependencies": {
+        "coveralls": "3.1.0",
+        "eslint": "7.0.0",
+        "jest": "26.0.1"
+    },
+    "files": [
+        "src/"
+    ],
+    "main": "src/string-property-mapper.js",
+    "name": "string-property-mapper",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/najbartomasz/string-property-mapper.git"
+    },
+    "scripts": {
+        "coveralls": "npm run test && coveralls < coverage/lcov.info",
+        "lint": "eslint src/ test/",
+        "test": "jest"
+    },
+    "version": "0.0.0"
+}
